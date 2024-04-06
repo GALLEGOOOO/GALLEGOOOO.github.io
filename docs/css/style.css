@@ -65,6 +65,25 @@ main {
 .server-section ul {
     margin-top: 10px;
 }
+.server-section .content {
+    display: flex;
+    align-items: center;
+}
+
+.server-section .text {
+    flex: 75%; /* El contenido de texto ocupa el 75% del ancho */
+}
+
+.server-section .image {
+    flex: 25%; /* La imagen ocupa el 25% del ancho */
+    padding-left: 20px; /* Espacio a la izquierda de la imagen */
+}
+
+.server-section .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Opcional: Añade bordes redondeados a la imagen */
+}
 
 footer {
     background-color: #333;
