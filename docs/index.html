@@ -1,50 +1,121 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serveis d'Aplicacions Destacats</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <title>Lista de Servidores de Aplicaciones</title>
 </head>
+
 <body>
+    <header>
+        <div class="container">
+            <h1>Serveis d'Aplicacions Destacats</h1>
+        </div>
+    </header>
 
-<header>
-    <h1>Lista de Servidores de Aplicaciones</h1>
     <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#servidores">Servidores de Aplicaciones</a></li>
-            <li><a href="#referencias">Referencias</a></li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href="#apache-tomcat">Apache Tomcat</a></li>
+                <li><a href="#microsoft-iis">Microsoft IIS</a></li>
+                <li><a href="#nodejs">Node.js</a></li>
+                <li><a href="#go-http-server">Go HTTP Server</a></li>
+                <li><a href="#ruby-on-rails">Ruby on Rails</a></li>
+                <li><a href="#django">Django</a></li>
+            </ul>
+        </div>
     </nav>
-</header>
 
-<main id="inicio">
-    <h2>Bienvenidos</h2>
-    <p>Esta es una lista de servidores de aplicaciones junto con sus características y casos de uso.</p>
-    <p>Autores: [Nombre del autor 1], [Nombre del autor 2]</p>
-</main>
+    <main>
+        <div class="container">
+            <!-- Informació sobre Apache Tomcat -->
+            <section id="apache-tomcat" class="server-section">
+                <h2>Apache Tomcat</h2>
+                <p><strong>Llenguatges de programació:</strong> Principalment Java, però també és compatible amb altres llenguatges com Ruby, Python, i més.</p>
+                <p><strong>Característiques destacades:</strong></p>
+                <ul>
+                    <li>Servei web i contenedor Servlet</li>
+                    <li>JavaServer Pages (JSP)</li>
+                    <li>Gestió de sessions</li>
+                </ul>
+                <p><strong>Casos d'ús:</strong> Apache Tomcat és utilitzat per empreses com LinkedIn, eBay i Amazon.</p>
+            </section>
 
-<section id="servidores">
-    <h2>Servidores de Aplicaciones</h2>
-    <article>
-        <h3>Nombre del Servidor 1</h3>
-        <p>Lenguajes de programación: [Lista de lenguajes]</p>
-        <p>Características: [Descripción de características]</p>
-        <p>Casos de uso: [Casos de uso]</p>
-    </article>
-    <!-- Repite este artículo para cada servidor de aplicaciones -->
-</section>
+            <!-- Informació sobre Microsoft IIS -->
+            <section id="microsoft-iis" class="server-section">
+                <h2>Microsoft IIS</h2>
+                <p><strong>Llenguatges de programació:</strong> Principalment C# (amb ASP.NET), però també suporta altres com PHP, Python, i més.</p>
+                <p><strong>Característiques destacades:</strong></p>
+                <ul>
+                    <li>Integració amb Microsoft Technologies</li>
+                    <li>Gestió de llocs web i aplicacions</li>
+                    <li>Seguretat avançada</li>
+                </ul>
+                <p><strong>Casos d'ús:</strong> Microsoft IIS és utilitzat per empreses com Microsoft, Stack Overflow, i GoDaddy.</p>
+            </section>
 
-<footer id="referencias">
-    <h2>Referencias</h2>
-    <ul>
-        <li><a href="url_referencia_1">Referencia 1</a></li>
-        <li><a href="url_referencia_2">Referencia 2</a></li>
-        <!-- Incluye todas las referencias utilizadas -->
-    </ul>
-</footer>
+            <!-- Informació sobre Node.js -->
+            <section id="nodejs" class="server-section">
+                <h2>Node.js</h2>
+                <p><strong>Llenguatges de programació:</strong> JavaScript</p>
+                <p><strong>Característiques destacades:</strong></p>
+                <ul>
+                    <li>Motor de JavaScript a l'entorn del servidor</li>
+                    <li>Escala de manera eficient</li>
+                    <li>Ampli ecosistema de paquets</li>
+                </ul>
+                <p><strong>Casos d'ús:</strong> Empreses com Netflix, PayPal i Uber utilitzen Node.js per a diverses parts de les seves aplicacions.</p>
+            </section>
 
+            <!-- Informació sobre Go HTTP Server -->
+            <section id="go-http-server" class="server-section">
+                <h2>Go HTTP Server</h2>
+                <p><strong>Llenguatges de programació:</strong> Go</p>
+                <p><strong>Característiques destacades:</strong></p>
+                <ul>
+                    <li>Concurrent i eficient</li>
+                    <li>Simple i fàcil d'aprendre</li>
+                    <li>Rendiment elevat</li>
+                </ul>
+                <p><strong>Casos d'ús:</strong> Dropbox, SoundCloud i Docker utilitzen Go per als seus serveis d'aplicacions.</p>
+            </section>
+
+            <!-- Informació sobre Ruby on Rails -->
+            <section id="ruby-on-rails" class="server-section">
+                <h2>Ruby on Rails</h2>
+                <p><strong>Llenguatges de programació:</strong> Principalment Ruby</p>
+                <p><strong>Característiques destacades:</strong></p>
+                <ul>
+                    <li>Framework MVC</li>
+                    <li>Productivitat elevada</li>
+                    <li>Ecosistema ric de gemmes</li>
+                </ul>
+                <p><strong>Casos d'ús:</strong> Airbnb, GitHub i Shopify són alguns exemples d'empreses que utilitzen Ruby on Rails per al desenvolupament d'aplicacions web.</p>
+            </section>
+
+            <!-- Informació sobre Django -->
+            <section id="django" class="server-section">
+                <h2>Django</h2>
+                <p><strong>Llenguatges de programació:</strong> Principalment Python</p>
+                <p><strong>Característiques destacades:</strong></p>
+                <ul>
+                    <li>Framework web Python</li>
+                    <li>Escalable i segur</li>
+                    <li>Administra la base de dades</li>
+                </ul>
+                <p><strong>Casos d'ús:</strong> Django s'utilitza en empreses com Instagram, Pinterest i Spotify per al desenvolupament d'aplicacions web.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Autors: Marc Fleck i Arnau Gallego</p>
+        </div>
+    </footer>
 </body>
+
 </html>
